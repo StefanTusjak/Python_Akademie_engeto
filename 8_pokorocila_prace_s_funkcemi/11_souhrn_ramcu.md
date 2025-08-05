@@ -141,3 +141,5 @@ print(x)
 | `global`      | Umožňuje měnit proměnnou v globálním rámci. |
 
 Tímto je ukončen přehled rámců a jejich souhrnu. Python je velmi konzistentní a striktní v tom, jak se chová při vyhledávání jmen.
+
+[12_dokumentace_funkci.md](12_dokumentace_funkci.md)
