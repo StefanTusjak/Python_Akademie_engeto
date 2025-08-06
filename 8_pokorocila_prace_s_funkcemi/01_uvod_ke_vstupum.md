@@ -75,7 +75,15 @@ print(f"Celkem zaplatíte: {cena} Kč")
    ```python
    vypocitej_cenu  # Odkazuje na funkci, ale nic nespustí
    ```
+   výstup:
+   
+   ```python
+   <function scitani at 0x000001BAE6FA1440>
+   ```
 
+   Reprezentace funkce jako objektu v paměti
+   - scitani je funkce, která v Pythonu existuje jako objekt.
+   - 0x000001BAE6FA1440 je paměťová adresa, kde je tento objekt uložen.
 ---
 
 ## 🎓 Proč jsou parametry a argumenty důležité?
