@@ -107,3 +107,5 @@ python -m doctest tvůj_soubor.py
 | pdoc      | HTML z docstringů              | Jednoduché a přehledné           | `pdoc --html`              |
 | pydoc     | Rychlá dokumentace z CLI       | Bez nutnosti instalace           | `pydoc`, `pydoc -w`        |
 | doctest   | Testy v docstringu             | Kombinuje testy a dokumentaci    | `python -m doctest`        |
+
+[13_napovidani_typu.md](13_napovidani_typu.md)
