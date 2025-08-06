@@ -50,8 +50,25 @@ print(f"Celkem zaplatíte: {cena} Kč")
    ```
 
 2. ❌ Předání argumentů v jiném pořadí (poziční zápis je citlivý!):
+   Například pokud funkce dělí:
+   
    ```python
-   vypocitej_cenu(199.9, 3)  # Vrátí špatný výsledek
+   def vypocitej_cenu(cena, mnozstvi):
+    return cena / mnozstvi
+
+   vypocitej_cenu(199.9, 3)  # správně: 66.63
+   vypocitej_cenu(3, 199.9)  # špatně: 0.015
+
+   ```
+   Nebo pokud závisí na konkrétní logice:
+
+   ```python
+   def vypocitej_cenu(cena, dph):
+    return cena + (cena * dph)
+
+   vypocitej_cenu(100, 0.21)  # správně: 121.0
+   vypocitej_cenu(0.21, 100)  # špatně: 21.21
+
    ```
 
 3. ❌ Zapomenutí volání funkce:
