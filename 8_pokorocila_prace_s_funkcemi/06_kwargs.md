@@ -155,4 +155,4 @@ kwargs={'d': 50, 'e': 60}
 
 Další kapitola může být např. o rozsazích proměnných nebo dokumentaci funkcí.
 
-[07_uvod_do_ramcu.md](07_kwargs.md)
+[07_uvod_do_ramcu.md](07_uvod_do_ramcu.md)
